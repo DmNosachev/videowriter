@@ -40,7 +40,7 @@
 
 /* key combination for command */
 #define IS_COMMAND() ( \
-    keyboard_report->mods == (MOD_BIT(KC_VOLD) | MOD_BIT(KC_VOLU)) \
+    keyboard_report->mods == (MOD_BIT(KC_LSHIFT) | MOD_BIT(KC_RSHIFT)) \
 )
 
 /* prevent stuck modifiers */
